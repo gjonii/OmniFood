@@ -106,8 +106,6 @@
   color: #cf711f;
 }
 
-.stps-content {
-}
 
 .stps-content img {
   width: 35%;
@@ -265,11 +263,11 @@
 .meals-recipie {
   border-radius: 8px;
   overflow: hidden;
-  max-width: 70%;
+  max-width: 80%;
   box-shadow: 0 0 3px rgb(51 51 51 / 30%);
-
   transition: all 0.4s;
   transition-timing-function: ease;
+  height: max-content;
 }
 
 .meals-recipie.first {
@@ -358,7 +356,7 @@
   font-size: 1.8rem;
   display: flex;
   flex-direction: column;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 
 ion-icon {
