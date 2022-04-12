@@ -46,6 +46,8 @@
 }
 html {
   /* font-size: 10px; */
+
+  /* 9/16 */
   font-size: 62.5%;
 }
 body {
@@ -77,9 +79,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
 }
 .grid-5 {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
-  column-gap: 6.4rem;
-  row-gap: 9.6rem;
+  grid-template-columns: repeat(5, 1fr);
 }
 
 strong {
