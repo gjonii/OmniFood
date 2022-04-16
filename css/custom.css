@@ -22,7 +22,10 @@
   font-size: 1.6rem;
   font-weight: 500;
 }
-
+.button-toggle {
+  transition: all 1s;
+  transform: rotate(360deg);
+}
 .menu:link,
 .menu:visited {
   text-decoration: none;
